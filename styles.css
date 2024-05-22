@@ -1,0 +1,34 @@
+
+
+    body{
+    padding:50px;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    }
+.container{
+    border: 1px solid whitesmoke;
+    border-radius: 10px;
+    max-width: 600px;
+    margin:0 auto;
+    padding:50px;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    height: 100%;
+    width: 100%;  
+    }
+    .form-group{
+        margin-bottom:30px;
+    }
+    #background-video {
+        width: 100vw;
+        height: 100vh; 
+        object-fit: cover;
+        position: fixed;
+        left: 0;
+        right: 0;
+        top: 0;
+        bottom: 0;
+        z-index: -1;
+      }
+     
+    
